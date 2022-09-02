@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa CEP</title>
+
+  <link rel="stylesheet" href="./src/css/style.css">
+
+</head>
+
+<body>
+  <form action="#" method="get" class="formulario">
+
+    <div class="content">
+
+      <div class="item">
+        <label for="input_CEP">
+          CEP:
+        </label>
+        <input type="text" id="input_CEP" name="CEP" placeholder="Digite o CEP" maxlength="8">
+        <span id="warning" class="warning removed">Digite o CEP corretamente</span>
+      </div>
+
+      <div class="item">
+        <label for="input_logradouro">
+          Logradouro:
+        </label>
+        <input type="text" id="input_logradouro" name="Logradouro" placeholder="Digite o logradouro">
+      </div>
+
+      <div class="item">
+        <label for="input_numero">
+          Número:
+        </label>
+        <input type="text" id="input_numero" name="Numero" placeholder="Digite o número">
+      </div>
+
+      <div class="item">
+        <label for="input_cidade">
+          Cidade:
+        </label>
+        <input type="text" id="input_cidade" name="Cidade" placeholder="Digite a cidade">
+      </div>
+
+      <div class="item">
+        <label for="input_uf">
+          Estado:
+        </label>
+        <input type="text" id="input_uf" name="Estado" placeholder="Digite o Estado">
+      </div>
+    </div>
+
+
+    <button type="submit" id="btn_enviar" class="disabled">Enviar</button>
+  </form>
+  <script src="./src/js/script.js"></script>
+</body>
+
+</html>
